@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الدعم والمساعدة - تطبيق إيجاراتي</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 3px solid #154D71;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #154D71;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #154D71;
+            font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        h3 {
+            color: #1976D2;
+            font-size: 1.2em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .faq-item {
+            background-color: #f9f9f9;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border-right: 4px solid #1976D2;
+        }
+
+        .faq-question {
+            font-weight: bold;
+            color: #154D71;
+            margin-bottom: 10px;
+        }
+
+        .contact-card {
+            background: linear-gradient(135deg, #154D71 0%, #1976D2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .contact-card h2 {
+            color: white;
+            border: none;
+            margin-top: 0;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .contact-item a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .feature-card {
+            background-color: #E3F2FD;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .feature-icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .english-section {
+            direction: ltr;
+            text-align: left;
+            margin-top: 50px;
+            padding-top: 50px;
+            border-top: 3px solid #154D71;
+        }
+
+        .english-section .faq-item {
+            border-left: 4px solid #1976D2;
+            border-right: none;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #1976D2;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            margin: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #154D71;
+        }
+
+        .warning-box {
+            background-color: #FFF3E0;
+            border-right: 4px solid #FF9800;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .english-section .warning-box {
+            border-left: 4px solid #FF9800;
+            border-right: none;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+
+            .contact-info {
+                flex-direction: column;
+            }
+
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Arabic Version -->
+        <header>
+            <h1>🏠 الدعم والمساعدة</h1>
+            <p>تطبيق إيجاراتي - إدارة عقود الإيجار</p>
+        </header>
+
+        <section>
+            <h2>مرحباً بك في صفحة الدعم</h2>
+            <p>
+                نحن هنا لمساعدتك في الاستفادة القصوى من تطبيق إيجاراتي.
+                ستجد هنا إجابات للأسئلة الشائعة ومعلومات الاتصال للحصول على الدعم.
+            </p>
+
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>سهل الاستخدام</h3>
+                    <p>واجهة بسيطة وبديهية</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>آمن تماماً</h3>
+                    <p>بياناتك محمية على جهازك</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>إحصائيات مفيدة</h3>
+                    <p>معرفة حالة عقودك بنظرة واحدة</p>
+                </div>
+            </div>
+
+            <h2>❓ الأسئلة الشائعة</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">كيف أضيف عقد إيجار جديد؟</div>
+                <div class="faq-answer">
+                    من الشاشة الرئيسية، اضغط على زر "+" في الأسفل، ثم أدخل معلومات العقد المطلوبة مثل العنوان، تاريخ البداية والنهاية، والمبلغ.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">هل يمكنني إرفاق صور أو مستندات بالعقد؟</div>
+                <div class="faq-answer">
+                    نعم! عند إضافة أو تعديل عقد، يمكنك إرفاق صورة واحدة من الكاميرا أو المعرض، أو ملف PDF واحد من ملفات جهازك.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">كيف أعرف العقود التي اقترب موعد انتهائها؟</div>
+                <div class="faq-answer">
+                    في الشاشة الرئيسية، العقود التي ستنتهي قريباً تظهر في قسم "ينتهي قريباً". كما يظهر لون أحمر بجانب العقود المنتهية.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">هل يمكنني تصدير بياناتي؟</div>
+                <div class="faq-answer">
+                    ميزة التصدير ستكون متاحة في التحديثات القادمة إن شاء الله. حالياً، يمكنك أخذ نسخة احتياطية عبر خدمات النظام (iCloud أو Google Drive) إذا كانت مفعلة.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">كيف أغير المظهر من فاتح إلى داكن؟</div>
+                <div class="faq-answer">
+                    اذهب إلى الإعدادات من القائمة السفلية، ستجد خيار "المظهر" حيث يمكنك الاختيار بين الفاتح، الداكن، أو التلقائي حسب النظام.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">ماذا أفعل إذا نسيت إضافة معلومات المستأجر؟</div>
+                <div class="faq-answer">
+                    يمكنك تعديل العقد في أي وقت بالضغط عليه من القائمة الرئيسية، ثم الضغط على زر التعديل (القلم) وإضافة المعلومات الناقصة.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">كيف أحذف عقد إيجار؟</div>
+                <div class="faq-answer">
+                    افتح تفاصيل العقد بالضغط عليه، ثم اضغط على زر الحذف (سلة المهملات) في الأعلى. سيُطلب منك التأكيد قبل الحذف النهائي.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">ما معنى النجمة بجانب بعض العقود؟</div>
+                <div class="faq-answer">
+                    النجمة تعني أن العقد مميز. يمكنك تمييز العقود المهمة بالضغط على أيقونة النجمة للوصول إليها بسرعة من قسم "المميزة".
+                </div>
+            </div>
+
+            <div class="warning-box">
+                <strong>⚠️ تنبيه مهم:</strong> تأكد من أخذ نسخة احتياطية من بياناتك بشكل دوري عبر إعدادات النظام (iCloud للآيفون أو Google Drive للأندرويد) لحماية بياناتك من الفقد.
+            </div>
+
+            <h2>🚀 البدء السريع</h2>
+            <ol style="margin-right: 20px;">
+                <li>افتح التطبيق</li>
+                <li>اضغط على زر "+" لإضافة عقد جديد</li>
+                <li>أدخل معلومات العقد الأساسية (العنوان، التواريخ، المبلغ)</li>
+                <li>أضف معلومات المستأجر (اختياري)</li>
+                <li>أرفق صورة العقد أو ملف PDF (اختياري)</li>
+                <li>احفظ العقد وسيظهر في القائمة الرئيسية</li>
+            </ol>
+
+            <h2>📊 فهم حالات العقود</h2>
+            <ul style="margin-right: 20px;">
+                <li>🟢 <strong>نشط:</strong> العقد ساري المفعول حالياً</li>
+                <li>🔵 <strong>قادم:</strong> العقد سيبدأ في المستقبل</li>
+                <li>🔴 <strong>منتهي:</strong> انتهت صلاحية العقد</li>
+                <li>⭐ <strong>مميز:</strong> عقد مهم تم تمييزه بنجمة</li>
+            </ul>
+
+            <h2>🔍 التنقل في التطبيق</h2>
+            <p>يحتوي التطبيق على أربع شاشات رئيسية:</p>
+            <ul style="margin-right: 20px;">
+                <li><strong>الرئيسية:</strong> عرض جميع العقود وحالاتها</li>
+                <li><strong>الإحصائيات:</strong> معلومات إجمالية عن العقود والمبالغ</li>
+                <li><strong>الإعدادات:</strong> تغيير المظهر ومسح البيانات</li>
+                <li><strong>حول:</strong> معلومات عن التطبيق</li>
+            </ul>
+
+            <div class="contact-card">
+                <h2>📧 تواصل معنا</h2>
+                <p>نحن هنا للمساعدة! لا تتردد في التواصل معنا</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span>📧</span>
+                        <a href="mailto:eijaratyapp@gmail.com">eijaratyapp@gmail.com</a>
+                    </div>
+                </div>
+                <p style="margin-top: 20px;">نرد عادة خلال 24-48 ساعة</p>
+            </div>
+
+            <h2>💡 نصائح للاستخدام الأمثل</h2>
+            <ul style="margin-right: 20px;">
+                <li>قم بتصوير صفحة العقد الرئيسية وإرفاقها للرجوع إليها لاحقاً</li>
+                <li>أضف رقم هاتف المستأجر لسهولة التواصل</li>
+                <li>استخدم ملاحظات الدفع لتسجيل المدفوعات</li>
+                <li>ميّز العقود المهمة بالنجمة للوصول السريع</li>
+                <li>راجع قسم "ينتهي قريباً" بانتظام لمتابعة العقود</li>
+                <li>استخدم خاصية البحث للعثور على عقد معين بسرعة</li>
+            </ul>
+        </section>
+
+        <!-- English Version -->
+        <section class="english-section">
+            <header>
+                <h1>🏠 Support & Help</h1>
+                <p>Eijaraty App - Rental Contract Management</p>
+            </header>
+
+            <h2>Welcome to Support</h2>
+            <p>
+                We're here to help you get the most out of Eijaraty app.
+                Find answers to common questions and contact information for support.
+            </p>
+
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Easy to Use</h3>
+                    <p>Simple and intuitive interface</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Completely Secure</h3>
+                    <p>Your data is protected on your device</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Useful Statistics</h3>
+                    <p>See your contracts status at a glance</p>
+                </div>
+            </div>
+
+            <h2>❓ Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">How do I add a new rental contract?</div>
+                <div class="faq-answer">
+                    From the home screen, tap the "+" button at the bottom, then enter the required contract information such as address, start and end dates, and amount.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Can I attach photos or documents to a contract?</div>
+                <div class="faq-answer">
+                    Yes! When adding or editing a contract, you can attach one photo from camera or gallery, or one PDF file from your device.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How do I know which contracts are expiring soon?</div>
+                <div class="faq-answer">
+                    On the home screen, contracts expiring soon appear in the "Expiring Soon" section. Expired contracts also show with a red indicator.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Can I export my data?</div>
+                <div class="faq-answer">
+                    Export feature will be available in upcoming updates. Currently, you can backup via system services (iCloud or Google Drive) if enabled.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How do I change the theme from light to dark?</div>
+                <div class="faq-answer">
+                    Go to Settings from the bottom menu, you'll find the "Theme" option where you can choose between Light, Dark, or System default.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">What if I forgot to add tenant information?</div>
+                <div class="faq-answer">
+                    You can edit the contract anytime by tapping on it from the main list, then tap the edit button (pencil icon) and add the missing information.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How do I delete a rental contract?</div>
+                <div class="faq-answer">
+                    Open contract details by tapping on it, then tap the delete button (trash icon) at the top. You'll be asked to confirm before final deletion.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">What does the star mean next to some contracts?</div>
+                <div class="faq-answer">
+                    The star means the contract is starred/important. You can star important contracts by tapping the star icon to quickly access them from the "Starred" section.
+                </div>
+            </div>
+
+            <div class="warning-box">
+                <strong>⚠️ Important Notice:</strong> Make sure to backup your data regularly through system settings (iCloud for iPhone or Google Drive for Android) to protect your data from loss.
+            </div>
+
+            <h2>🚀 Quick Start</h2>
+            <ol>
+                <li>Open the app</li>
+                <li>Tap the "+" button to add a new contract</li>
+                <li>Enter basic contract information (address, dates, amount)</li>
+                <li>Add tenant information (optional)</li>
+                <li>Attach contract image or PDF file (optional)</li>
+                <li>Save the contract and it will appear in the main list</li>
+            </ol>
+
+            <h2>📊 Understanding Contract Status</h2>
+            <ul>
+                <li>🟢 <strong>Active:</strong> Contract is currently valid</li>
+                <li>🔵 <strong>Upcoming:</strong> Contract will start in the future</li>
+                <li>🔴 <strong>Expired:</strong> Contract has expired</li>
+                <li>⭐ <strong>Starred:</strong> Important contract marked with a star</li>
+            </ul>
+
+            <h2>🔍 Navigating the App</h2>
+            <p>The app has four main screens:</p>
+            <ul>
+                <li><strong>Home:</strong> View all contracts and their status</li>
+                <li><strong>Statistics:</strong> Summary information about contracts and amounts</li>
+                <li><strong>Settings:</strong> Change theme and clear data</li>
+                <li><strong>About:</strong> Information about the app</li>
+            </ul>
+
+            <div class="contact-card">
+                <h2>📧 Contact Us</h2>
+                <p>We're here to help! Don't hesitate to reach out</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span>📧</span>
+                        <a href="mailto:eijaratyapp@gmail.com">eijaratyapp@gmail.com</a>
+                    </div>
+                </div>
+                <p style="margin-top: 20px;">We usually respond within 24-48 hours</p>
+            </div>
+
+            <h2>💡 Tips for Best Use</h2>
+            <ul>
+                <li>Photograph the main contract page and attach it for future reference</li>
+                <li>Add tenant phone numbers for easy communication</li>
+                <li>Use payment notes to record payments</li>
+                <li>Star important contracts for quick access</li>
+                <li>Regularly check "Expiring Soon" section to track contracts</li>
+                <li>Use search feature to quickly find specific contracts</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
